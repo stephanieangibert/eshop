@@ -1,0 +1,583 @@
+*,::after,::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+   
+ 
+   
+}
+body{
+    background-image: url("../images/bgtraitRouge.jpg");
+    width: 100%;
+  
+    /* height: 1400vh; */
+    z-index: 10;
+
+ 
+   
+}
+
+video{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 50rem;
+    height: 50rem; 
+    transform: scale(1);
+    background-size: cover;
+    opacity: 1;
+    display: block;
+   
+  }
+  nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+      width: 100%;  
+      height: 10vh;   
+    background-color: transparent;
+    color:black;
+     
+  }
+  ul{
+   
+    width: 100%;  
+    height: 10vh;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+      list-style-type: none;
+      font-size: 3rem;
+      padding-left:4rem;
+      transition: 1s;
+      color:black;
+  }
+  .itemMenu{
+    text-decoration: none;
+    font-size: 3rem;
+      padding-left:4rem;
+      color:black;    
+      transition: 1s;
+  }
+   li:hover{
+      text-decoration: line-through;
+      color: red;
+  }
+
+  .itemNew{
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  
+  .pdt{
+      
+      font-size:2.2rem;
+      font-weight: bold;
+   
+  }
+  .container {
+      width: 100%;     
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .premiere{
+    width: 100%;    
+    z-index: 1000;     
+  }
+  .block1{
+      width: 10%; 
+      height: 45vh;      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .block2{
+    width: 30%;  
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-wrap: nowrap;
+    height: 45vh;   
+  
+}
+
+h2{
+    transform: rotate(90deg);
+    font-size: 18rem;
+    color: red;
+    font-family: 'Holtwood One SC', serif;
+    letter-spacing: 0.5rem;
+}
+.block3{
+    width: 40%;
+    height: 45vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.block4{
+    width: 30%;
+  
+}
+h1{
+    line-height: 3rem;
+}
+
+    #bg{
+        font-size: 6rem;
+        /* letter-spacing: 6px;        */
+        font-weight: 300;
+        width: 70rem;
+        height: 6rem;    
+        overflow: hidden;
+        position: relative;
+        font-family: 'Holtwood One SC', serif;
+        
+        display: table;
+        vertical-align:middle ;
+    }
+    #bgPetit{
+       
+        width: 47rem;
+        height: 4rem;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        overflow: hidden;
+    }
+    .box{
+        position: absolute;
+        background-color: black;
+
+    }
+    h3{
+        transform:rotate(-90deg);
+        letter-spacing:0.2rem;
+        font-size: 2rem;
+    }
+    h3::first-letter{
+        color: red;
+    }
+    span{
+        color: red;
+    }
+    .hauteur{
+        width: 100%;
+        height: 220rem;    
+        z-index: -1000;
+      
+    }
+    
+    .deuxieme {        
+    
+        width: 100%;
+             
+         
+
+    }
+    .deuxiemeSavon{
+        height: 856px;
+        margin-top: 2%;
+display: none;
+    }
+    .deuxiemeParfum{
+display: none;
+height: 856px;
+margin-top: 2%;
+    }
+    .deuxiemeShampoing{
+display: none;
+height: 856px;
+margin-top: 2%;
+    }
+     .choixContainer{
+        display: none;
+    } 
+    .choix{
+        width: 100%;
+        margin: 0 auto;        
+        display: flex;       
+        justify-content:flex-start;
+       align-items: center;  
+     
+  
+       
+    }
+    .btnChoix{
+        width:12rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        text-align: center;
+        border: solid red 0.2rem;
+        font-size:1.4rem;
+       border-radius: 999px;
+       font-weight: bold;
+       margin-bottom: 1%;
+       cursor: pointer;
+        
+    }
+    .btnChoix:hover{
+        background-color: red;
+        color: black;
+    }
+    .container2{
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;  
+        margin: 0 auto;
+    }
+    
+    .card1{
+        /* width: 44rem; */
+        width: 25%;
+        height: 39rem;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        transition: 0.5s ease-in;   
+        border-radius:0.4rem;   
+        overflow: hidden;
+        margin: 1%;
+    }
+    .card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+    .card1 img{
+width: 100%; 
+height: 25rem;
+ background-size: cover; 
+border-radius: 0.4rem;
+    }
+    .card1:hover{
+        padding: 3%;
+    }  
+    .card1:hover h4{
+        font-size:2.2rem ;
+    }  
+    h4{
+        font-size: 3rem;
+        color: white;
+    }
+    .card-content{
+        color: white;
+        font-size: 1.6rem;
+        padding: 2%;
+    }
+    
+.card-titre{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.prix{
+    font-size:3rem;
+    font-weight: bold;
+}
+footer{
+   
+    width: 100%;   
+    height: 25vh;
+    background-color: #303030;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 1%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer1{
+    width: 33%; 
+    height: 17rem;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer2{
+    width: 33%;   
+    height: 17rem; 
+    display: flex;
+justify-content: center;
+align-items: center;   
+}
+
+.footer3{
+    width: 33%;   
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+h5{
+    color:white;
+    font-size: 2rem;
+    width: 12rem;
+    border-bottom: red solid 0.2rem;
+}
+.footer1 p{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+.reseau{
+    width: 100%;
+    height:3rem;    
+    color:white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.reseau i{
+    padding-right: 1rem;
+}
+i{
+    color: white;
+    font-size: 1.5rem;
+}
+.localisation{
+  margin-top: 2%;
+    height: 3rem;
+}
+.phone{
+    height: 3rem;   
+}
+.mail{
+    height: 3rem;
+}
+.footer2 span{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 0.6rem;
+}
+/* .footer3{
+    display: flex;
+    flex-direction: column;
+} */
+input[type=submit]{
+    background-color: red;
+    color: white;
+    height: 2.2rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+input[type=mail]{
+    width: 100%;
+    background-color:#303030;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   
+}
+textarea{
+    background-color:#303030; 
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+}
+label{
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+.footer3Contain{
+    width:100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noirRouge{
+    color: black;
+    background-color: red;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+}
+/****************MEDIA QUERIES********************/
+@media (max-width: 1540px){
+    html{
+font-size: 9px;
+    }
+    .deuxieme{
+        margin-top: 25vh;   
+    }
+    .deuxiemeParfum{
+        margin-top: 25vh;
+        height: 100vh
+    }
+    .deuxiemeSavon{
+        margin-top: 25vh;
+        height: 100vh;
+    }
+    .deuxiemeShampoing{
+        margin-top: 25vh;
+        height: 100vh;
+    }
+}
+@media (max-width: 1199px){
+    html{
+font-size: 9px;
+    }
+}
+@media (max-width: 1089px){
+    h2{
+font-size: 15rem;
+    }
+}
+@media (max-width: 1039px){
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width: 813px){
+  .container{
+      margin-top: 25vh;
+  }
+  li{
+    padding-left: 0.5rem;
+}
+.choix{
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+}
+.shop{
+    width: 7rem;
+    height: 60rem;
+}
+
+
+      
+  .footerContainer{
+      flex-direction: column;
+  }
+  ul{
+      justify-content: center;
+  }
+  .container{
+      margin-top: 0;
+  }
+  .card1{
+      width: 80%;
+  }
+  footer{
+      height: auto;
+  }
+  .footer1{
+      width: 90%;
+  }
+  .footer2{
+    width: 90%;
+    justify-content: flex-start;
+}
+.footer3{
+    width: 90%;
+    margin-bottom: 8%;
+}
+#bg{
+    font-size: 3rem;
+    width: 100%;
+}
+#bgPetit{
+    height: 2rem;
+}
+.block1{
+    width: 6%;
+}
+.block2{
+    width: 20%;
+    align-items: center;
+}
+.block3{
+    width: 100%;
+    height: 25vh;
+  
+}
+.block4{
+    width:0%;
+   
+}
+.hauteur{
+    display: none;
+}
+.container2{
+    margin-top: 45vh;
+}
+h2{
+    font-size: 10rem;
+}
+.video{
+    display: none;
+}
+.deuxieme{
+    margin-top: 45vh;
+}
+nav{
+    height: 8vh;
+    background-color: transparent;
+    color: white;
+}
+.deuxiemeParfum{
+    margin-top: 45vh;
+}
+.deuxiemeSavon{
+    margin-top: 45vh;
+}
+.deuxiemeShampoing{
+    margin-top: 45vh;
+}
+footer h5{
+    width: 12rem;
+}
+.footer3Contain{
+align-items: flex-start;
+}
+  
+}
+@media(max-width:375px){
+.itemMenu{
+    padding-left: 0.2rem;
+}
+.block2{
+    width: 10%;
+}
+.btnChoix{
+    width: 8rem;
+}
+.choixContainer{
+    margin-left: -5%;
+}
+
+li{
+    padding-left: 2rem;
+}
+}
